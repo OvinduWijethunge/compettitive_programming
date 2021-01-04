@@ -1,0 +1,42 @@
+# when you create a repository in your machine following bellow steps...
+
+1. go to your project / files folder
+2. inside folder open your git bash (to make sure your git bash see your correct working directory)
+3. git init (you intializedd a git repositary. this command use only one time for a particulare repo)
+4. git add . (add your all untracked / changed files to your repo)
+5. git commit -m"your message" (commit all changes to your repo... here message helps you to remind what you have done)
+ 
+ok.now we completed our first step...(make a local repository )
+next we shoud make a remote repository for our local repo.
+for that, 
+6. go to git hub 
+7. click create a new repository
+8. name your repository (it is better if you name your repositiory resemble to your local repository (dream ..our first repo)
+
+ok. now we created our remote repository.... next step is make a connection between our local repo and remote repo
+for that,
+copy your remote repo link (its looks like.... https://github.com/MoumitaChakraborty98/Dream.git) <-----link
+then go to your git bash and type as,
+
+9. git remote add origin your copied link
+now we create our bridge..now it is time to push our local repository files to our remote repo (in hit hub)
+
+10. git push -u origin master
+Done!!! we pushed our local files to git hub... now evrything ok....
+
+
+
+
+#when  you alredy have a repository and you are working inside it....
+
+1. git add . 
+2. git commit -m"your message"
+3. git push
+
+
+
+
+
+# above every things has happend in your master(default branch) branch .....if you want to make more branches and 
+  you can make more branch and you can work on new branches...
+
