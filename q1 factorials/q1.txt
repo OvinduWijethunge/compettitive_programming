@@ -1,0 +1,14 @@
+Q 1) find factorials of a given number
+    
+For example, find the factorial of 6,
+                                    = 1*2*3*4*5*6 
+                                    = 720
+
+*input should be a user given input.
+*you should check three test cases 
+  1) if the given number is negative
+  2) if the given number is zero
+  3) if the given number is positive
+
+
+**hint :- use a loop
